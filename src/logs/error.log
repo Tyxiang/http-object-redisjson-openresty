@@ -1,0 +1,65 @@
+2020/12/08 10:23:00 [alert] 8744#12048: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:20
+2020/12/08 10:23:00 [alert] 8744#12048: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:27
+2020/12/08 10:23:00 [alert] 8744#12048: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:34
+2020/12/08 10:23:00 [alert] 8744#12048: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:41
+2020/12/08 10:23:00 [alert] 1388#5660: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:20
+2020/12/08 10:23:00 [alert] 1388#5660: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:27
+2020/12/08 10:23:00 [alert] 1388#5660: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:34
+2020/12/08 10:23:00 [alert] 1388#5660: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:41
+2020/12/08 10:23:46 [alert] 6184#3228: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:20
+2020/12/08 10:23:46 [alert] 6184#3228: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:27
+2020/12/08 10:23:46 [alert] 6184#3228: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:34
+2020/12/08 10:23:46 [alert] 6184#3228: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:41
+2020/12/08 10:23:46 [alert] 4036#5936: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:20
+2020/12/08 10:23:46 [alert] 4036#5936: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:27
+2020/12/08 10:23:46 [alert] 4036#5936: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:34
+2020/12/08 10:23:46 [alert] 4036#5936: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:41
+2020/12/08 10:23:51 [error] 4036#10212: *1 [lua] admin.lua:14: no resolver defined to resolve "api.forw.cc", client: 127.0.0.1, server: localhost, request: "GET /admin HTTP/1.1", host: "localhost:8080"
+2020/12/08 10:26:37 [error] 4036#10212: *2 [lua] admin.lua:14: no resolver defined to resolve "api.forw.cc", client: 127.0.0.1, server: localhost, request: "GET /admin HTTP/1.1", host: "localhost:8080"
+2020/12/08 10:52:28 [error] 4036#10212: *7 lua entry thread aborted: runtime error: ./lua/admin.lua:146: attempt to call global 'uri_to_rejson_path' (a nil value)
+stack traceback:
+coroutine 0:
+	./lua/admin.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /admin HTTP/1.1", host: "localhost:8080"
+2020/12/08 10:52:46 [alert] 6844#1928: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:20
+2020/12/08 10:52:46 [alert] 6844#1928: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:27
+2020/12/08 10:52:46 [alert] 6844#1928: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:34
+2020/12/08 10:52:46 [alert] 6844#1928: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:41
+2020/12/08 10:52:47 [alert] 10452#3220: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:20
+2020/12/08 10:52:47 [alert] 10452#3220: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:27
+2020/12/08 10:52:47 [alert] 10452#3220: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:34
+2020/12/08 10:52:47 [alert] 10452#3220: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:41
+2020/12/08 10:52:52 [error] 10452#6692: *1 lua entry thread aborted: runtime error: ./lua/admin.lua:146: attempt to call global 'uri_to_rejson_path' (a nil value)
+stack traceback:
+coroutine 0:
+	./lua/admin.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /admin HTTP/1.1", host: "localhost:8080"
+2020/12/08 11:21:40 [error] 10452#6692: *11 lua entry thread aborted: runtime error: ./lua/admin.lua:187: attempt to concatenate global 'json_res' (a nil value)
+stack traceback:
+coroutine 0:
+	./lua/admin.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /admin/products HTTP/1.1", host: "localhost:8080"
+2020/12/08 11:56:16 [alert] 5972#7804: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:20
+2020/12/08 11:56:16 [alert] 5972#7804: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:27
+2020/12/08 11:56:16 [alert] 5972#7804: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:34
+2020/12/08 11:56:16 [alert] 5972#7804: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:41
+2020/12/08 11:56:16 [error] 5972#7804: [lua] init.lua:6: load config error!
+2020/12/08 11:56:16 [error] 5972#7804: init_by_lua_file error: ./http_object/init.lua:8: attempt to index local 'file_config' (a nil value)
+stack traceback:
+	./http_object/init.lua:8: in main chunk
+2020/12/08 11:57:26 [alert] 10692#6224: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:20
+2020/12/08 11:57:26 [alert] 10692#6224: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:27
+2020/12/08 11:57:26 [alert] 10692#6224: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:34
+2020/12/08 11:57:26 [alert] 10692#6224: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:41
+2020/12/08 11:57:26 [alert] 4832#2400: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:20
+2020/12/08 11:57:26 [alert] 4832#2400: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:27
+2020/12/08 11:57:26 [alert] 4832#2400: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:34
+2020/12/08 11:57:26 [alert] 4832#2400: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:41
+2020/12/09 09:07:08 [alert] 2844#9860: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:20
+2020/12/09 09:07:08 [alert] 2844#9860: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:27
+2020/12/09 09:07:08 [alert] 2844#9860: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:34
+2020/12/09 09:07:08 [alert] 2844#9860: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:41
+2020/12/09 09:07:08 [alert] 7948#12684: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:20
+2020/12/09 09:07:08 [alert] 7948#12684: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:27
+2020/12/09 09:07:08 [alert] 7948#12684: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:34
+2020/12/09 09:07:08 [alert] 7948#12684: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:41
+2020/12/09 09:08:01 [error] 7948#12572: *1 [lua] admin.lua:50: $.products[], client: 127.0.0.1, server: localhost, request: "POST /admin/products()/ HTTP/1.1", host: "localhost:8080"
+2020/12/09 09:11:23 [error] 7948#12572: *7 [lua] admin.lua:149: ERR path does not exist, client: 127.0.0.1, server: localhost, request: "GET /admin/products.type/ HTTP/1.1", host: "localhost:8080"
+2020/12/09 09:11:33 [error] 7948#12572: *7 [lua] admin.lua:149: ERR path does not exist, client: 127.0.0.1, server: localhost, request: "GET /admin/products.type/ HTTP/1.1", host: "localhost:8080"

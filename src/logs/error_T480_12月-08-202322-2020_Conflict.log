@@ -1,0 +1,134 @@
+2020/12/07 20:35:03 [alert] 109036#108924: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:20
+2020/12/07 20:35:03 [alert] 109036#108924: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:27
+2020/12/07 20:35:03 [alert] 109036#108924: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:34
+2020/12/07 20:35:03 [alert] 109036#108924: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:41
+2020/12/07 20:35:03 [alert] 107564#110076: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:20
+2020/12/07 20:35:03 [alert] 107564#110076: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:27
+2020/12/07 20:35:03 [alert] 107564#110076: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:34
+2020/12/07 20:35:03 [alert] 107564#110076: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:41
+2020/12/07 20:35:10 [error] 107564#104252: *1 failed to load external Lua file "./lua/admin.lua": ./lua/admin.lua:38: unexpected symbol near 'if', client: 127.0.0.1, server: localhost, request: "POST /admin/products() HTTP/1.1", host: "localhost:8080"
+2020/12/07 20:36:24 [error] 107564#104252: *2 [lua] admin.lua:54: $.products[], client: 127.0.0.1, server: localhost, request: "POST /admin/products() HTTP/1.1", host: "localhost:8080"
+2020/12/07 20:37:03 [error] 107564#104252: *2 [lua] admin.lua:54: $.products[], client: 127.0.0.1, server: localhost, request: "POST /admin/products() HTTP/1.1", host: "localhost:8080"
+2020/12/07 20:37:12 [error] 107564#104252: *2 [lua] admin.lua:54: $.products[], client: 127.0.0.1, server: localhost, request: "POST /admin/products() HTTP/1.1", host: "localhost:8080"
+2020/12/07 20:38:21 [error] 107564#104252: *6 failed to load external Lua file "./lua/admin.lua": ./lua/admin.lua:40: unexpected symbol near 'local', client: 127.0.0.1, server: localhost, request: "POST /admin/products() HTTP/1.1", host: "localhost:8080"
+2020/12/07 20:39:01 [error] 107564#104252: *7 failed to load external Lua file "./lua/admin.lua": ./lua/admin.lua:171: 'end' expected (to close 'if' at line 29) near '<eof>', client: 127.0.0.1, server: localhost, request: "POST /admin/products() HTTP/1.1", host: "localhost:8080"
+2020/12/07 20:51:27 [error] 107564#104252: *27 [lua] admin.lua:50: nil, client: 127.0.0.1, server: localhost, request: "POST /admin/shop HTTP/1.1", host: "localhost:8080"
+2020/12/07 20:51:27 [error] 107564#104252: *27 lua entry thread aborted: runtime error: ./lua/admin.lua:51: attempt to concatenate local 'err' (a nil value)
+stack traceback:
+coroutine 0:
+	./lua/admin.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /admin/shop HTTP/1.1", host: "localhost:8080"
+2020/12/07 20:53:22 [error] 107564#104252: *30 [lua] admin.lua:51: key already exist, client: 127.0.0.1, server: localhost, request: "POST /admin/shop HTTP/1.1", host: "localhost:8080"
+2020/12/07 21:02:12 [alert] 108036#94908: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:20
+2020/12/07 21:02:12 [alert] 108036#94908: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:27
+2020/12/07 21:02:12 [alert] 108036#94908: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:34
+2020/12/07 21:02:12 [alert] 108036#94908: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:41
+2020/12/07 21:02:12 [alert] 114256#110440: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:20
+2020/12/07 21:02:12 [alert] 114256#110440: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:27
+2020/12/07 21:02:12 [alert] 114256#110440: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:34
+2020/12/07 21:02:12 [alert] 114256#110440: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:41
+2020/12/07 21:03:09 [alert] 113464#99324: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:20
+2020/12/07 21:03:09 [alert] 113464#99324: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:27
+2020/12/07 21:03:09 [alert] 113464#99324: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:34
+2020/12/07 21:03:09 [alert] 113464#99324: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:41
+2020/12/07 21:03:09 [alert] 107732#111364: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:20
+2020/12/07 21:03:09 [alert] 107732#111364: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:27
+2020/12/07 21:03:09 [alert] 107732#111364: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:34
+2020/12/07 21:03:09 [alert] 107732#111364: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:41
+2020/12/07 21:04:53 [alert] 95920#106400: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:20
+2020/12/07 21:04:53 [alert] 95920#106400: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:27
+2020/12/07 21:04:53 [alert] 95920#106400: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:34
+2020/12/07 21:04:53 [alert] 95920#106400: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:41
+2020/12/07 21:04:53 [alert] 110092#100516: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:20
+2020/12/07 21:04:53 [alert] 110092#100516: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:27
+2020/12/07 21:04:53 [alert] 110092#100516: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:34
+2020/12/07 21:04:53 [alert] 110092#100516: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:41
+2020/12/07 21:05:51 [alert] 98308#110256: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:20
+2020/12/07 21:05:51 [alert] 98308#110256: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:27
+2020/12/07 21:05:51 [alert] 98308#110256: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:34
+2020/12/07 21:05:51 [alert] 98308#110256: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:41
+2020/12/07 21:05:51 [alert] 84056#98400: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:20
+2020/12/07 21:05:51 [alert] 84056#98400: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:27
+2020/12/07 21:05:51 [alert] 84056#98400: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:34
+2020/12/07 21:05:51 [alert] 84056#98400: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:41
+2020/12/07 21:11:55 [error] 84056#113884: *8 [lua] admin.lua:56: key already exist, client: 127.0.0.1, server: localhost, request: "POST /admin/shop HTTP/1.1", host: "localhost:8080"
+2020/12/07 21:12:47 [error] 84056#113884: *8 [lua] admin.lua:56: key already exist, client: 127.0.0.1, server: localhost, request: "POST /admin/products HTTP/1.1", host: "localhost:8080"
+2020/12/07 21:19:59 [error] 84056#113884: *19 [lua] admin.lua:179: key not exist, client: 127.0.0.1, server: localhost, request: "PUT /admin/productx HTTP/1.1", host: "localhost:8080"
+2020/12/07 21:24:21 [error] 84056#113884: *31 [lua] admin.lua:192: nothing be delete, client: 127.0.0.1, server: localhost, request: "DELETE /admin/productx HTTP/1.1", host: "localhost:8080"
+2020/12/07 21:24:41 [error] 84056#113884: *31 [lua] admin.lua:192: nothing be delete, client: 127.0.0.1, server: localhost, request: "DELETE /admin/productx HTTP/1.1", host: "localhost:8080"
+2020/12/07 21:25:20 [error] 84056#113884: *31 [lua] admin.lua:192: nothing be delete, client: 127.0.0.1, server: localhost, request: "DELETE /admin/products(9) HTTP/1.1", host: "localhost:8080"
+2020/12/07 21:25:27 [error] 84056#113884: *31 [lua] admin.lua:192: nothing be delete, client: 127.0.0.1, server: localhost, request: "DELETE /admin/products(8) HTTP/1.1", host: "localhost:8080"
+2020/12/07 21:40:49 [error] 84056#113884: *54 failed to load external Lua file "./lua/admin.lua": ./lua/admin.lua:156: unexpected symbol near 'if', client: 127.0.0.1, server: localhost, request: "GET /admin/ HTTP/1.1", host: "localhost:8080"
+2020/12/07 21:41:30 [error] 84056#113884: *55 failed to load external Lua file "./lua/admin.lua": ./lua/admin.lua:157: 'end' expected (to close 'if' at line 64) near 'return', client: 127.0.0.1, server: localhost, request: "GET /admin/ HTTP/1.1", host: "localhost:8080"
+2020/12/07 21:41:43 [error] 84056#113884: *56 failed to load external Lua file "./lua/admin.lua": ./lua/admin.lua:157: 'end' expected (to close 'if' at line 64) near 'return', client: 127.0.0.1, server: localhost, request: "GET /admin/ HTTP/1.1", host: "localhost:8080"
+2020/12/07 21:42:38 [error] 84056#113884: *57 failed to load external Lua file "./lua/admin.lua": ./lua/admin.lua:167: 'end' expected (to close 'if' at line 64) near 'return', client: 127.0.0.1, server: localhost, request: "GET /admin/ HTTP/1.1", host: "localhost:8080"
+2020/12/07 22:16:25 [error] 84056#113884: *73 lua entry thread aborted: runtime error: ./lua/admin.lua:163: attempt to concatenate local 'res' (a nil value)
+stack traceback:
+coroutine 0:
+	./lua/admin.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /admin?q=filter(id,gt,0001)+search(name,Tom)+select(id,name,age)+except(age,20)&s=max() HTTP/1.1", host: "localhost:8080"
+2020/12/07 22:16:41 [error] 84056#113884: *75 lua entry thread aborted: runtime error: ./lua/admin.lua:163: attempt to concatenate local 'res' (a nil value)
+stack traceback:
+coroutine 0:
+	./lua/admin.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /admin?q=filter(id,gt,0001)+search(name,Tom)+select(id,name,age)+except(age,20)&s=max() HTTP/1.1", host: "localhost:8080"
+2020/12/07 22:17:19 [error] 84056#113884: *77 lua entry thread aborted: runtime error: ./lua/admin.lua:163: attempt to concatenate local 'res' (a nil value)
+stack traceback:
+coroutine 0:
+	./lua/admin.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /admin?q=filter(id,gt,0001)+search(name,Tom)+select(id,name,age)+except(age,20)&s=max() HTTP/1.1", host: "localhost:8080"
+2020/12/07 22:17:29 [alert] 99200#115204: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:20
+2020/12/07 22:17:29 [alert] 99200#115204: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:27
+2020/12/07 22:17:29 [alert] 99200#115204: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:34
+2020/12/07 22:17:29 [alert] 99200#115204: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:41
+2020/12/07 22:17:29 [alert] 112984#110296: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:20
+2020/12/07 22:17:29 [alert] 112984#110296: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:27
+2020/12/07 22:17:29 [alert] 112984#110296: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:34
+2020/12/07 22:17:29 [alert] 112984#110296: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:41
+2020/12/07 22:17:32 [error] 112984#115620: *1 lua entry thread aborted: runtime error: ./lua/admin.lua:163: attempt to concatenate local 'res' (a nil value)
+stack traceback:
+coroutine 0:
+	./lua/admin.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /admin?q=filter(id,gt,0001)+search(name,Tom)+select(id,name,age)+except(age,20)&s=max() HTTP/1.1", host: "localhost:8080"
+2020/12/07 22:18:41 [error] 112984#115620: *3 lua entry thread aborted: runtime error: ./lua/admin.lua:163: attempt to concatenate local 'res' (a nil value)
+stack traceback:
+coroutine 0:
+	./lua/admin.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /admin?q=filter(id,gt,0001)+search(name,Tom)+select(id,name,age)+except(age,20)&s=max() HTTP/1.1", host: "localhost:8080"
+2020/12/07 22:18:43 [error] 112984#115620: *5 lua entry thread aborted: runtime error: ./lua/admin.lua:163: attempt to concatenate local 'res' (a nil value)
+stack traceback:
+coroutine 0:
+	./lua/admin.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /admin?q=filter(id,gt,0001)+search(name,Tom)+select(id,name,age)+except(age,20)&s=max() HTTP/1.1", host: "localhost:8080"
+2020/12/07 22:21:18 [error] 112984#115620: *7 lua entry thread aborted: runtime error: ./lua/admin.lua:163: attempt to concatenate local 'res' (a nil value)
+stack traceback:
+coroutine 0:
+	./lua/admin.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /admin?q=filter(id,gt,0001)+search(name,Tom)+select(id,name,age)+except(age,20)&s=max() HTTP/1.1", host: "localhost:8080"
+2020/12/07 22:21:40 [error] 112984#115620: *9 lua entry thread aborted: runtime error: ./lua/admin.lua:163: attempt to concatenate local 'res' (a nil value)
+stack traceback:
+coroutine 0:
+	./lua/admin.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /admin?q=filter(id,gt,0001)+search(name,Tom)+select(id,name,age)+except(age,20)&s=max() HTTP/1.1", host: "localhost:8080"
+2020/12/07 22:42:41 [error] 112984#115620: *20 lua entry thread aborted: runtime error: ./lua/init.lua:26: bad argument #1 to 'len' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[builtin:len]: in function 'len'
+	./lua/init.lua:26: in function 'is_start_with'
+	./lua/admin.lua:158: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /admin?q=filter(id,gt,0001)+search(name,Tom)+select(id,name,age)+except(age,20)&s=max() HTTP/1.1", host: "localhost:8080"
+2020/12/07 22:45:51 [error] 112984#115620: *22 lua entry thread aborted: runtime error: ./lua/init.lua:26: bad argument #1 to 'len' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[builtin:len]: in function 'len'
+	./lua/init.lua:26: in function 'is_start_with'
+	./lua/admin.lua:158: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /admin?q=filter(id,gt,0001)+search(name,Tom)+select(id,name,age)+except(age,20)&s=max() HTTP/1.1", host: "localhost:8080"
+2020/12/07 22:45:53 [error] 112984#115620: *24 lua entry thread aborted: runtime error: ./lua/init.lua:26: bad argument #1 to 'len' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[builtin:len]: in function 'len'
+	./lua/init.lua:26: in function 'is_start_with'
+	./lua/admin.lua:158: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /admin?q=filter(id,gt,0001)+search(name,Tom)+select(id,name,age)+except(age,20)&s=max() HTTP/1.1", host: "localhost:8080"
+2020/12/07 22:50:36 [error] 112984#115620: *26 lua entry thread aborted: runtime error: ./lua/init.lua:26: bad argument #1 to 'len' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[builtin:len]: in function 'len'
+	./lua/init.lua:26: in function 'is_start_with'
+	./lua/admin.lua:158: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /admin?q=filter(id,gt,0001)+search(name,Tom)+select(id,name,age)+except(age,20)&s=max() HTTP/1.1", host: "localhost:8080"
+2020/12/07 22:51:23 [error] 112984#115620: *28 lua entry thread aborted: runtime error: ./lua/init.lua:26: bad argument #1 to 'len' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[builtin:len]: in function 'len'
+	./lua/init.lua:26: in function 'is_start_with'
+	./lua/admin.lua:158: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /admin?q=filter(id,gt,0001)+search(name,Tom)+select(id,name,age)+except(age,20)&s=max() HTTP/1.1", host: "localhost:8080"
+2020/12/07 23:05:42 [error] 112984#115620: *37 failed to load external Lua file "./lua/admin.lua": ./lua/admin.lua:157: 'end' expected (to close 'if' at line 64) near '=', client: 127.0.0.1, server: localhost, request: "GET /admin?s=count() HTTP/1.1", host: "localhost:8080"
